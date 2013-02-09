@@ -59,3 +59,7 @@ config/fog_credentials.yml
 # Scripts used for downloading/refshing db
 script/download_db
 script/refresh_db
+
+#Ignore local configuration files
+.rvmrc
+config/*.local.yml

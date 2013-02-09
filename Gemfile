@@ -10,7 +10,6 @@ gem 'pg'
 gem 'sass'
 gem 'rake'
 # errbit is broken with 3.1.3 for now
-gem 'airbrake', "3.1.2"
 gem 'rest-client'
 gem 'rails3_acts_as_paranoid', "~>0.2.0"
 gem 'activerecord-postgres-hstore'
@@ -89,7 +88,7 @@ group :test, :development do
   gem 'shoulda'
   #gem 'turn', :require => false
   gem 'jasminerice'
-  gem 'fabrication'
+  gem 'fabrication', :git => 'git@github.com:paulelliott/fabrication.git'
   gem 'guard-jasmine'
   gem 'guard-rspec' 
   gem 'guard-spork'
